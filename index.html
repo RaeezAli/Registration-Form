@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+
+        h1{
+            text-decoration: underline;
+            color: rgb(76, 76, 227);
+            text-align: center;
+        }
+
+        form{
+            background-color: rgb(76, 76, 227);
+            color: white;
+            padding: 1%;
+            margin: 0 22%;
+        }
+
+        .button{
+            text-align: center;
+            padding: 20px 10px 0 0;
+        }
+
+        .Address{
+            display: flex;
+        }
+
+        input{
+            padding: 3px 0;
+            border: solid white;
+        }
+
+        .Date{
+            padding: 4px;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <form>
+
+        <p>
+        <label for="text" style="margin-right: 61px;">FIRST NAME</label>
+        <input type="text">
+        (max 30 characters a-z and A-Z)</p><br>
+        
+        <p>
+        <label for="text" style="margin-right: 65px;">LAST NAME</label>
+        <input type="text">
+        (max 30 characters a-z and A-Z)</p>
+        <br>
+
+        <div>
+            <span style="margin-right: 38px;">DATE OF BIRTH</span>
+            <select class="Date">
+            <option value="">Day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+         </select>
+
+        <select class="Date">
+            <option value="Month">Month:</option>
+            <option value="January">January</option>
+            <option value="Feburary">Feburary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="Octuber">Octuber</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <select class="Date">
+            <option value="Year">Year:</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1991</option>
+            <option value="1998">1992</option>
+            <option value="1997">1993</option>
+            <option value="1996">1994</option>
+            <option value="1995">1995</option>
+        </select>
+        </div>
+        <br>
+
+        <label for="email" style="margin-right: 84px;">EMAIL ID</label>
+        <input type="email">
+        <br>
+
+        <p>
+        <label for="tel"  style="margin-right: 22px;">MOBILE NUMBER</label>
+        <input type="tel">
+        (10 digits number)</p>
+        <br>
+
+        <div>
+        <label for="checkbox"  style="margin-right: 90px;">GENDER</label>
+        <label for="radio">Male</label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="radio">Female</label>
+        <input type="radio" name="Gender" value="Female">
+        </div>
+        <br>
+        
+        <div class="Address"><p style="margin-right: 87px;">ADDRESS</p> <textarea name="Address" id="" cols="40" rows="5"></textarea> </div>
+        <br>
+        
+        <p>
+        <label for="text" style="margin-right: 118px;">CITY</label>
+        <input type="text">
+        (max 30 characters a-z and A-Z)</p>
+        <br>
+        
+        <p>
+            <label for="number" style="margin-right: 82px;">PIN CODE</label>
+            <input type="number">
+            (6 digits number)
+        </p>
+        <br>
+
+        <p>
+        <label for="text"  style="margin-right: 109px;">STATE</label>
+        <input type="text">
+        (max 30 characters a-z and A-Z)</p>
+        <br>
+
+        <label for="text" style="margin-right: 79px;">COUNTRY</label>
+        <input type="text" placeholder="Pakistan">
+        <br><br>
+
+        <div>
+            <span style="margin-right: 86px;">HOBBIES</span>
+                <label for="checkbox">Drawing</label>
+                <input type="checkbox">
+                <label for="checkbox">Singing</label>
+                <input type="checkbox">
+                <label for="checkbox">Dancing</label>
+                <input type="checkbox">
+                <label for="checkbox">Sketching</label>
+                <input type="checkbox"><br>
+                <label for="checkbox" style="margin-left: 159px;">Others</label>
+                <input type="checkbox">
+                <input type="text">
+        </div>
+        <br>
+
+        <div style="display: flex;">
+            <span style="margin-right: 33px;">QUALIFICATION</span>
+                <table>
+                        <tr>
+                            <td align="center">SI.No.</td>
+                            <td align="center">Exaamination</td>
+                            <td align="center">Board</td>
+                            <td align="center">Percentage</td>
+                            <td align="center">Year of Passing</td>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="ClassX_Board" /> </td>
+                            <td><input type="text" name="ClassX_percentage" /> </td>
+                            <td> <input type="text" name="ClassX_passing" /> </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="Class12_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Class12_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="Class12_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="GraduationYearrOfPassing" maxlength="30" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Master</td>
+                            <td><input type="text" name="Master_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Master_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="Master_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="center"> (10 char Max) </td>
+                            <td align="center"> (upto 2 decimal) </td>    
+                        </tr>
+                </table>
+        </div>  
+
+        <br>
+
+        <div>
+            <span style="margin-right: 55px;">COURSES <br> APPLIED FOR</span>
+                BCA
+                <input type="radio" name="Courses" value="BCA">
+                B.com
+                <input type="radio" name="Courses" value="B.Com">
+                B.Sc
+                <input type="radio" name="Courses" value="B.Sc">
+                B.A
+                <input type="radio" name="Courses" value="B.A">
+        </div>
+
+        <div class="button">
+            <input type="submit" value="submit">
+            <input type="reset" value="Reset">
+        </div>
+     
+    </form>
+
+</body>
+</html>
